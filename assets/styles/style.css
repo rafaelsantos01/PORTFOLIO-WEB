@@ -261,17 +261,17 @@ main {
     background-color: #191919;
 }
 
-.profile-about {
-    max-width: 400px;
-    max-height: 400px;
+.profile-about2 {
+    max-width: 300px;
+    max-height: 300px;
     margin-right: 8%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50%;
+    border-radius: 20%;
     border: 1px solid #191919;
     transition: border 1s ease;
 }
 
-.profile-about:hover {
+.profile-about2:hover {
     border: 1px solid red;;
 }
 
