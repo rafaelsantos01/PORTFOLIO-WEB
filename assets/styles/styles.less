@@ -283,6 +283,7 @@ main {
 
 .article-about {
     max-width: 630px;
+    display: grid;
 }
 
 .article-about h2{
@@ -307,6 +308,30 @@ main {
     color: @detalhe;
     font-weight: 600;
 }
+
+#btnLeiaMais {
+    display: block;
+    margin: 150px auto 0 auto;
+    padding: 10px 60px;
+    border-radius: 6px;
+    border: 1px solid @detalhe;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 550;
+    background-color: @fundoClaro;
+    color:@detalhe;
+    outline: none;
+}
+
+#btnLeiaMais:hover {
+    filter: brightness(0.90)
+}
+
+#mais{
+    display: none;
+}
+
+
 
 /*------------------------------*/
 
@@ -372,14 +397,14 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    min-height: 50%;
+    min-height: 40%;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: 0px 4px 4px @corSombra;
 }
 
 .project-info {
-    padding: 10px 5px 0 3px;
+    padding: 10px 5px 0 10px;
 }
 
 .project-info h4 {

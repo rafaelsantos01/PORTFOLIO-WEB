@@ -8,7 +8,7 @@ const typeWrite = () =>{
         textArray.forEach((letter, i) => {
             setTimeout( () => {
                 textParagraph.innerHTML += letter
-            }, 100 * i)
+            }, 80 * i)
         })
     }, 1400)
 
