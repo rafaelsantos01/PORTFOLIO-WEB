@@ -249,6 +249,27 @@ main {
 
 
 
+#btnLeiaMais {
+    display: block;
+    margin: 150px auto 0 auto;
+    padding: 10px 60px;
+    border-radius: 6px;
+    border: 1px solid @detalhe;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 550;
+    background-color: @fundoClaro;
+    color:@detalhe;
+    outline: none;
+}
+
+#btnLeiaMais:hover {
+    filter: brightness(0.90)
+}
+
+#mais{
+    display: none;
+}
 
 
 
