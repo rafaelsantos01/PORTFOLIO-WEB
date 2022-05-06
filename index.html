@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/styles/style.css"  rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="stylesheet/less" type="text/css" href="./assets/styles/styles.less" rel="preconnect" href="https://fonts.googleapis.com"/>    
+    <meta name="author" content="Rafael Pereira Dos Santos"> 
+    <meta name="description" content=" Portfólio do desenvolvedor Rafael P. Santos, as tecnologias utilizadas no desenvolvimento foram HTML,CSS e JS.O intuito do projeto foi apenas estudo do front-end.">
+    <meta name="kaywords" content="portfólio, html, dev, javascript, rafael santos, rafa santos, rafael santos brusque, rafael brusque,">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="icon" type="image/png" href="./assets/icons/logo2.png">
+
+    <title>Portfólio Web Rafael P. Santos</title>
+</head>
+<body>
+    
+    <!-- Menu -->
+    <header>
+        <nav>
+            <h2><a class="logo" href="#">&ltRafael P. Santos/&gt</a></h2>
+
+            <ul id="nav-list" class="nav-list">
+                
+                <li class="item-list"><a class="nav-link" href="#">Início</a></li>
+                <li class="item-list"><a class="nav-link" href="#about">Sobre mim</a></li>
+                <li class="item-list"><a class="nav-link" href="#projects">Projetos</a></li>
+                <li class="item-list"><a class="nav-link" href="#skills">Conhecimentos</a></li>
+                <li class="item-list"><a class="nav-link" href="#contacts">Contato</a></li>
+            </ul>
+            <div class="menu-icon">
+                <div id="line-one" class="line-1"></div>
+                <div id="line-two" class="line-2"></div>
+                <div id="line-three" class="line-3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção tela principal -->
+        <section id="home" class="s-home">
+            <article class="article-home">
+                <spam class="spam-home">Olá, meu nome é</spam>
+                <h1 class="">
+                    <spam>Ra</spam>fael P<spam>.D</spam>os <spam> Sant</spam>os
+                </h1>
+                        <!-- id="typeWriter" class="" -->
+                <p id="typeWriter" class="">"Tudo é uma questão do quanto você deseja e do que esta
+                    disposto a fazer para conseguir."</p>
+                    
+                <div class="buttons-home ">
+                    <a class="get-in-touch" href="#contacts">Entrar em contato</a>
+                    <a class="cv-download" href="https://drive.google.com/drive/folders/17qFTuoqfYw1Bx-rKYxMKaW93C4QJcL6u?usp=sharing">CV Download</a>
+                </div>
+            </article>
+            <img class="img-home" src="./assets/icons/svg1.png" alt="A imagem me representa, um rapaz negro mechendo em um computador, e varias liguagens acima dele 
+            tais como html,css,java,php e angular. Eu quis representar com essa imagem todas as ligueagens que eu ja tive algum contato. ">
+        </section>
+
+        <!-- Seçao do sobre mim -->
+        <section id="about" class="s-about">
+            <img class="profile-about2" src="assets/icons/perfil.jpeg" alt="Essa é uma foto minha, rapaz negro estou em um estacionamento com um oculos escuro olhando em direção a camera, o dia esta um pouco nublado.">
+            <article class="article-about">
+                <h2 class="title-about">Quem sou <spam class="point">.</spam>
+                </h2>
+                
+                    <div class="parte1">
+                        <p class="paragraph-about">
+                            <P> Meu nome é Rafael Pereira Dos Santos, sou do PR e atualmente moro em Brusque-SC.  No
+                                momento trabalho na área  de TI com hardware, tenho mais de 7 anos de experiência na área.
+                                Já passei pelas seguintes empresas ligadas a tecnologia: PCPRIME e
+                                Brusoft, todas atuei como técnico e desempenhei  meu papel da melhor forma possível. 
+                                Sempre tive interesse em trabalhar com Software, o desenvolvimento em específico. Porem minha
+                                primeira oportunidade para entrar na área  foi a do Hardware. Foi uma grande experiência absorvi 
+                                tudo oque foi possível.
+                                <p>
+                                Em 2021 decidi dar o primeiro passo na área  do Software<span id="pontos">...</span> <span id="mais">
+                                .Iniciei um curso Técnico em desenvolvimento de sistemas no Senai, esta sendo uma grande experiência
+                                ja fiz alguns bootcamps, tenho alguns cursos na udemy dentre outros. Estou cada vez mais gostando e 
+                                decidido a mudar de vez de carreira, meu planejamento é ainda este ano 2022 conseguir uma oportunidade
+                                para começar a atuar como dev.</p>
+
+                               .</span>
+                        </p>
+                    </div>
+                
+
+                <button onclick="leiaMaisSobre()" id="btnLeiaMais">Ver mais</button>
+            </article>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projects" class="s-projects">
+            <h2 class="title-projects">Projetos <spam class="point">.</spam></h2>
+            <div class="container-projects ">
+                <div class="row-1">
+                    <div class="cards-project">
+                        <img src="./assets/icons/fksystem.png" alt="Essa imagem se refere a um sistema que eu desenvolvi em Java, meu primeiro projeto com BD integrado, na imagem mostra a tela de login do software com o fundo branco com detalhes em azul marinho.">
+
+                        <div class="project-info">
+                            <h4>FKSYSTEM</h4>
+                            <p> Esse foi um projeto  feito em Java, tem como função controle de OS, clientes, fornecedores e contas a pagar e receber.Contem um banco de dados em MySQL
+                            </p>
+                            <div class="btns-project">
+                                <a class="view-live" href="https://github.com/rafaelsantos01/br.com.prime.os"
+                                    target="_blank">Download</a>
+                                <a class="github-repo" href="https://github.com/rafaelsantos01/br.com.prime.os"
+                                    target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cards-project">
+                        <img src="./assets/icons/portifolio.png" alt="Essa imagem é basicamente um print desse portifolio.Fundo com duas tonalidades de preto para separar as seçoes e detalhes vermelhos.">
+
+                        <div class="project-info">
+                            <h4>PORTFÓLIO</h4>
+                            <p>Esse projeto foi desenvolvildo em HTML, JS e LAS. Tem como objetivo principal o estudo das linguagens citadas anteriormente e tambem me deixa a amostra na WEB.</p>
+                            </p>
+                            <div class="btns-project">
+                                <a class="view-live" href=""
+                                    target="_blank">View Live</a>
+                                <a class="github-repo" href="https://github.com/rafaelsantos01/portifolioweb"
+                                    target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cards-project">
+                        <img src="./assets/icons/tarefas.png" alt="Essa imagem representa um projeto que fiz em angular, uma lista de tarefas, projeto bem completo e simples ao mesmo tempo fundo vermelho e preto com alguns botoes para alterar adicionar ou excluir uma tarefa.">
+
+                        <div class="project-info">
+                            <h4>TAREFAS</h4>
+                            <p>Projeto feito para fins de estudo com a tecnologia Angular.Foi feito durante uma aula do balta.io, foi uma grande experiência foi meu primeiro contato com o framework.</p>
+                            <div class="btns-project">
+                                <a class="view-live" href="https://github.com/rafaelsantos01/angular-balta.io"
+                                    target="_blank">View Live</a>
+                                <a class="github-repo" href="https://github.com/rafaelsantos01/angular-balta.io"
+                                    target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                
+                <div class="row-2">
+                    <div class="cards-project">
+                        <img src="./assets/icons/financeone.png" alt="Essa imagem representa um projeto que fiz em angular, uma lista de tarefas, projeto bem completo e simples ao mesmo tempo fundo vermelho e preto com alguns botoes para alterar adicionar ou excluir uma tarefa.">
+
+                        <div class="project-info">
+                            <h4>Educação Financeira</h4>
+                            <p>Projeto foi um desafio proposto pela StartSE, que tinha como tema "Como podemos ajudar os brasileiros a se organizar melhor financeiramente".Projeto foi feito em grupo!</p>
+                            <div class="btns-project">
+                                <a class="view-live" href="https://financeonebrasil.netlify.app/"
+                                    target="_blank">View Live</a>
+                                <a class="github-repo" href="https://github.com/rafaelsantos01/projeto01startse"
+                                    target="_blank">GitHub Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="cards-project">
+                        <div class="embreve">
+                            <p>EM BREVE</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="show-more">Ver mais</button>
+        </section>
+
+        <!-- Seção conhecimento -->
+        <section id="skills" class="s-skills">
+
+            <article class="article-skills">
+                <h2 class="title-skills">Conhecimentos <spam class="point">.</spam>
+                </h2>
+                <spam class="card-name"></spam>
+                <p id="info-skills" class="">* passe o cursor sobre os ícones para saber mais *
+            </article>
+
+            <div class="grid-skills">
+                <div class="card-skills html">
+                    <img src="./assets/icons/html-5.png" alt="Logo do HTML, Fundo de cor laranjado com um 5 em branco destacado, se referindo ao HTML5.">
+                    
+                </div>
+
+                <div class="card-skills css">
+                    <img src="./assets/icons/css-3.png" alt="Logo do CSS, Bem similar a logo do html porem o fundo é azul e tem um 3 branco se referindo ao CSS3.">
+                    
+                </div>
+
+                <div class="card-skills js">
+                    <img src="./assets/icons/js.png" alt="Logo do JavaScript, Logo simples e bonita fundo amarelo com um JS em preto da um destaque muito bom para as iniciais." />
+                
+                </div>
+
+                <div class="card-skills git">
+                    <img src="./assets/icons/git2.png" alt="Logo do Github, um gato branco com o fundo em azul claro com uma borda branca.">
+                </div>
+
+                <div class="card-skills java">
+                    <img src=" ./assets/icons/java.png" alt="Logo do java, A famosa chicara de caffe.">
+                    
+                </div>
+
+                <div class="card-skills mysql">
+                    <img src="./assets/icons/mysql.png" alt="Logo do MySQL, Escolhi um golfinho para representar, o mesmo golfinho da logo orignal.">
+                    
+                </div>
+
+                <div class="card-skills angular">
+                    <img src="./assets/icons/angular.png" alt="Logo Angular, fundo vermelho com um A em preto para referenciar a inicial do angular.">
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Seção contato -->
+        <section id="contacts" class="s-contact">
+
+            <article class="article-contact">
+
+                <h2 class="title-contact">
+                    Contato <spam class="point">.</spam>
+                </h2>
+
+                <div class="social-links">
+
+                    <a href="http://www.linkedin.com/in/rafael-santos-7a938b237">
+                        <img src="./assets/icons/link.png" alt="Logo do linkedin, fundo azul com um IN em preto para destatar">
+                    </a>
+
+                   <a href="http://github.com/rafaelsantos01"><img src="./assets/icons/git.png" alt="Logo do github, logo em azul tambem com o famoso gato com um contorno em branco.">
+                    </a>
+
+                
+
+                    <a href="https://wa.me/55047996581330"><img src="./assets/icons/wpp.png" alt="logo do whatsapp, fundo verde com um simbolo de um telefone no meio em branco."></a>
+                </div>
+
+            </article>
+
+            <!-- Formulario de contato -->
+            <form action="https://formsubmit.co/rafinhapsantos50@gmail.com" method="POST" class="form">
+                <label>
+                    <input type="text" name="Nome" placeholder="Seu nome" required autocomplete>
+                </label>
+
+                <label>
+                    <input type="email" name="Email" placeholder="seuemail@email.com" required autocomplete="">
+                </label>
+
+                <label>
+                    <textarea name="Mensagem" placeholder="Deixe sua mensagem"></textarea>
+                </label>
+
+                <input type="hidden" name="_captcha" value="false">
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+
+        </section>
+        
+    </main>
+
+    <footer>
+        <a href="#">Voltar Para o Inicio. <img src="./assets/icons/arrow.png" alt="Flexa apontado para cima."></a> 
+    </footer>
+
+    <section class="copy">
+        &copy; 2022 - Rafael Pereira Dos Santos
+    </section>
+
+ 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script> 
+     
+      </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/scripts/configScroll.js"></script>
+    <script src="./assets/scripts/descricaoLinguagens.js"></script>
+    <script src="./assets/scripts/efeitoMaquinaEscrever.js"></script>
+    <script src="./assets/scripts/verMais.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4" ></script>
+    <script src="./assets/scripts/menu.js"></script>
+</body>
+</html>
