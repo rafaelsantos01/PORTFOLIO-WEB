@@ -24,8 +24,8 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.mysql') {
             cardName.innerHTML = ' MySQL '
         } 
-        if(nameCard === '.angular') {
-            cardName.innerHTML = ' ANGULAR '
+        if(nameCard === '.spring') {
+            cardName.innerHTML = ' SPRING BOOT '
         } 
     })
 
@@ -65,7 +65,7 @@ changeDescription(
     'Criação e gerenciamente de um banco de dados, conhecimento dos principais comandos.'   
 )
 changeDescription(
-    '.angular',
-    'Estou me aprofundando nesse framework, estou gostando da estrutura do mesmo.'   
+    '.spring',
+    'Estou me aprofundando nesse framework, criando algumas APIs alguns trabalhos com intuito de estudo.'   
 )
 
