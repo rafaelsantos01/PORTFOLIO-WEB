@@ -25,7 +25,7 @@ const changeDescription = (nameCard, text) => {
             cardName.innerHTML = ' MySQL '
         } 
         if(nameCard === '.spring') {
-            cardName.innerHTML = ' SPRING BOOT '
+            cardName.innerHTML = ' ECOSSISTEMA SPRING '
         } 
     })
 
