@@ -27,6 +27,12 @@ const changeDescription = (nameCard, text) => {
         if(nameCard === '.spring') {
             cardName.innerHTML = ' ECOSSISTEMA SPRING '
         } 
+        if(nameCard === '.reactJS') {
+            cardName.innerHTML = ' ReactJS '
+        } 
+        if(nameCard === '.postgre') {
+            cardName.innerHTML = ' postgres '
+        } 
     })
 
     document.querySelector(nameCard).addEventListener('mouseout', () => {
@@ -62,10 +68,18 @@ changeDescription(
 
 changeDescription(
     '.mysql',
-    'Criação e gerenciamente de um banco de dados, conhecimento dos principais comandos.'   
+    'Criação e gerenciamente de um banco de dados, conhecimento dos principais comandos DDL, DML.'   
 )
 changeDescription(
     '.spring',
-    'Estou me aprofundando nesse framework, criando algumas APIs alguns trabalhos com intuito de estudo.'   
+    'Conheço as principais ferramentas do ecosistema Spring, e cada dia mais procuro me aprofundar.'   
+)
+changeDescription(
+    '.reactJS',
+    'Essa é uma biblioteca que mais estou estudando no momento.'   
+)
+changeDescription(
+    '.postgre',
+    'Criação e gerenciamente de um banco de dados, conhecimento dos principais comandos DDL, DML.'   
 )
 
